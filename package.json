@@ -1,0 +1,25 @@
+{
+  "name": "ticket-manager",
+  "version": "1.0.0",
+  "description": "A ticket management system built with Django and Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build app/static/css/tailwind.css -o app/static/css/output.css",
+    "watch": "tailwindcss -i app/static/css/tailwind.css -o app/static/css/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5"
+  },
+  "keywords": [
+    "django",
+    "tailwind",
+    "ticket",
+    "management"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
